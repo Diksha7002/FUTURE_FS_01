@@ -1,0 +1,17 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#08111f;
+overflow-x:hidden;
+}
+
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#4ea8ff;
+border-radius:10px;
+}

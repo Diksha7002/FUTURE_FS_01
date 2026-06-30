@@ -1,0 +1,40 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#08111f;
+color:white;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+.logo h2{
+color:#4ea8ff;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:35px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#4ea8ff;
+}
